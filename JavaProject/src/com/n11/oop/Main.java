@@ -28,6 +28,16 @@ public class Main {
         c.surname = "Karaduman";
         c.printScreen(c.name,c.surname);
 
+        
+        
+        CleverChild cc = new CleverChild();
+        cc.name = "Yannis";
+        cc.surname = "Karaduman";
+        cc.title = "Clever";
+        cc.writeNameSurnameTitle(cc.name,cc.surname,cc.title);
+        
+        DocileChild dc = new DocileChild();
+        dc.writeNameSurnameTitle("John","Doe","Is a Docile Child");
 
     }
 }

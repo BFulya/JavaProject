@@ -4,10 +4,10 @@ package com.n11.oop;
 
 public class Child extends Human {
 
-    public String qualification;
+    public String title;
 
-    public void writeNameSurnameQualification(String name,String surname,String qualification)
+    public void writeNameSurnameTitle(String name,String surname,String title)
     {
-        System.out.println(name+ " " + surname+" " + qualification);
+        System.out.println(name+ " " + surname+" " + title);
     }
 }
