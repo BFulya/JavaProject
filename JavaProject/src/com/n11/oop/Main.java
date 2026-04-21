@@ -39,6 +39,20 @@ public class Main {
         DocileChild dc = new DocileChild();
         dc.writeNameSurnameTitle("John","Doe","Is a Docile Child");
 
+        
+        
+        String[] days = new String[7];
+        days[0] = "monday";
+        days[1] = "tuesday";
+        days[2] = "wednesday";
+        days[3] = "thursday";
+        days[4] = "friday";
+        days[5] = "saturday";
+        days[6] = "sunday";
+        for(int z=0; z<days.length; z++)
+        {
+            System.out.println(days[z]);
+        }
     }
 }
 
