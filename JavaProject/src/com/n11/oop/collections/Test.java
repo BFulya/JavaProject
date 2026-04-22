@@ -10,10 +10,10 @@ public class Test {
     {
 
         ArrayList<String> list = new ArrayList<String>();
-        Human i = new Human();
+        Human h = new Human();
         list.add("Kevin");
 
-        if(list.contains(i))
+        if(list.contains(h))
         {
             System.out.println("exist in List ");
         }
