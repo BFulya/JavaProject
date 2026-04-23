@@ -1,6 +1,7 @@
 package com.n11.oop.solid.log.good;
 
 public class Test {
+	
 	 public static void main(String[] args)
 	    {
 	        DbLog dbLog = new DbLog();
